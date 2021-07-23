@@ -8,7 +8,7 @@ public class CpeInfo {
 
 	public CpeInfo(String msisdn) {
 		this.msisdn = msisdn;
-		this.content = "{ \"msisdn\" : " + msiddn + ", \"cpemodel\" : \"samsung\" , \"cpeversion\" : \"1.2.2\" }";
+		this.content = "{ \"msisdn\" : " + msisdn + ", \"cpemodel\" : \"samsung\" , \"cpeversion\" : \"1.2.2\" }";
 	}
 
 	public String getMsisdn() {
