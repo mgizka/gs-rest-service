@@ -12,7 +12,7 @@ public class CpeInfo {
 	}
 
 	public String getMsisdn() {
-		return msiddn;
+		return msisdn;
 	}
 
 	public String getContent() {
