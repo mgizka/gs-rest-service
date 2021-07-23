@@ -10,18 +10,5 @@ public class CpeInfo {
 
 	public CpeInfo(String msisdn) {
 		this.msisdn = msisdn;
-		this.cpemodel = "Samsung";
-        this.cpeversion = "1.2.2";
-	}
-
-	public String getMsisdn() {
-		return msisdn;
-	}
-
-	public String getCpemodel() {
-		return cpemodel;
-	}
-    public String getCpeversion() {
-		return cpeversion;
 	}
 }
