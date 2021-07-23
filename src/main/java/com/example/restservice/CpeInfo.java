@@ -8,7 +8,7 @@ public class CpeInfo {
 
 	public Invoice(String msisdn) {
 		this.id = id;
-		this.content = "{ /"msisdn/" : " + msiddn + "," + "/"cpemodel/" : /"samsung/" , "/"cpeversion/" : /"1.2.2/" : }";
+		this.content = "{ "msisdn" : " + msiddn + ", "cpemodel" : "samsung" , "cpeversion" : "1.2.2" }";
 	}
 
 	public String getId() {
