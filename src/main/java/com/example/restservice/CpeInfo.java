@@ -11,8 +11,8 @@ public class CpeInfo {
 		this.content = "{ \"msisdn\" : " + msiddn + ", \"cpemodel\" : \"samsung\" , \"cpeversion\" : \"1.2.2\" }";
 	}
 
-	public String getId() {
-		return id;
+	public String getMsisdn() {
+		return msiddn;
 	}
 
 	public String getContent() {
