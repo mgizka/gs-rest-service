@@ -7,7 +7,7 @@ public class CpeInfo {
 	private final String content;
 
 	public CpeInfo(String msisdn) {
-		this.id = id;
+		this.msisdn = msisdn;
 		this.content = "{ \"msisdn\" : " + msiddn + ", \"cpemodel\" : \"samsung\" , \"cpeversion\" : \"1.2.2\" }";
 	}
 
