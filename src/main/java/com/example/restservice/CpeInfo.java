@@ -4,18 +4,24 @@ package com.example.restservice;
 public class CpeInfo {
 
 	private final String msisdn;
-	private final String content;
+	private final String cpemodel;
+    private final String cpeversion;
+    
 
 	public CpeInfo(String msisdn) {
 		this.msisdn = msisdn;
-		this.content = "{ \"msisdn\" : " + msisdn + ", \"cpemodel\" : \"samsung\" , \"cpeversion\" : \"1.2.2\" }";
+		this.cpemodel = "Samsung";
+        this.cpeversion = "1.2.2";
 	}
 
 	public String getMsisdn() {
 		return msisdn;
 	}
 
-	public String getContent() {
-		return content;
+	public String getCpemodel() {
+		return cpemodel;
+	}
+    public String getCpeversion() {
+		return cpeversion;
 	}
 }
