@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class CpeController {
+public class CpeInfoontroller {
 
-	@GetMapping("/cpe")
-	public Cpe cpe(@RequestParam(value = "msisdn") String msisdn) {
-		return new Cpe(msisdn);
+	@GetMapping("/cpeinfo")
+	public CpeInfo cpeinfo(@RequestParam(value = "msisdn") String msisdn) {
+		return new CpeInfo(msisdn);
 	}
 }

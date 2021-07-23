@@ -1,13 +1,13 @@
 
 package com.example.restservice;
 
-public class Cpe {
+public class CpeInfo {
 
 	private final String msisdn;
 
 
 
-	public Cpe(String msisdn) {
+	public CpeInfo(String msisdn) {
 		this.msisdn = msisdn;
 	}
 
