@@ -1,5 +1,7 @@
-/Users/mgizka/Projects/gs-rest-service/complete/src/main/java/com/example/restservice/GreetingController.java
-/Users/mgizka/Projects/gs-rest-service/complete/src/main/java/com/example/restservice/RestServiceApplication.java
-/Users/mgizka/Projects/gs-rest-service/complete/src/main/java/com/example/restservice/Greeting.java
-/Users/mgizka/Projects/gs-rest-service/complete/src/main/java/com/example/restservice/Invoice.java
-/Users/mgizka/Projects/gs-rest-service/complete/src/main/java/com/example/restservice/InvoiceController.java
+/Users/mgizka/Projects/gs-rest-service/src/main/java/com/example/restservice/InvoiceController.java
+/Users/mgizka/Projects/gs-rest-service/src/main/java/com/example/restservice/CpeInfo.java
+/Users/mgizka/Projects/gs-rest-service/src/main/java/com/example/restservice/Greeting.java
+/Users/mgizka/Projects/gs-rest-service/src/main/java/com/example/restservice/CpeInfoController.java
+/Users/mgizka/Projects/gs-rest-service/src/main/java/com/example/restservice/GreetingController.java
+/Users/mgizka/Projects/gs-rest-service/src/main/java/com/example/restservice/RestServiceApplication.java
+/Users/mgizka/Projects/gs-rest-service/src/main/java/com/example/restservice/Invoice.java
