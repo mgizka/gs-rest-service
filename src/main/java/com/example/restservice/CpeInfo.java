@@ -14,18 +14,6 @@ public class CpeInfo {
 		cpemodel = "Samsung Galaxy 20 Ultra Note";
 	}
 
-	public String getMsisdn() {
-		return msisdn;
-	}
-
-	public String getCpeModel() {
-		return cpemodel;
-	}
-
-	public String getCpeVersion() {
-		return cpeversion;
-	}
-
 	public String getCpeInfo(){
 		return "\"msisdn\":" + msisdn + "," + "\"cpemodel\":"+cpemodel +","+ "\"cpeversion\":"+cpeversion; 
 	}
