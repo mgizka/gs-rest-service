@@ -26,4 +26,8 @@ public class CpeInfo {
 		return cpeversion;
 	}
 
+	public String getCpeInfo(){
+		return "\"msisdn\":" + msisdn + "," + "\"cpemodel\":"+cpemodel +","+ "\"cpeversion\":"+cpeversion; 
+	}
+
 }
