@@ -3,5 +3,6 @@ com/example/restservice/Invoice.class
 com/example/restservice/Greeting.class
 com/example/restservice/RestServiceApplication.class
 com/example/restservice/CpeInfo.class
+com/example/restservice/DbUtil.class
 com/example/restservice/CpeInfoController.class
 com/example/restservice/GreetingController.class

@@ -8,10 +8,10 @@ public class CpeInfo {
 	private final String cpemodel;
 
 
-	public CpeInfo(String msisdn) {
+	public CpeInfo(String msisdn, String model, String version) {
 		this.msisdn = msisdn;
-		cpeversion = "1.2.2";
-		cpemodel = "Samsung Galaxy 20 Ultra Note";
+		this.cpeversion = version;
+		this.cpemodel = model;
 	}
 
 	public String getMsisdn() {
