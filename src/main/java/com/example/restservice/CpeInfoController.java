@@ -12,7 +12,7 @@ public class CpeInfoController {
 	@GetMapping("/cpeinfo/{msisdn}")
 	public CpeInfo cpeinfo(@PathVariable String msisdn) {
 
-		String query = "SELECT * FROM CPE WHERE msisdn='"+msisdn+"'";
+		String query = "SELECT * FROM \"CPE\" WHERE msisdn='"+msisdn+"'";
 		CpeInfo cp = null;
 		
 		try (Connection con = DbUtil.getConnection()){
