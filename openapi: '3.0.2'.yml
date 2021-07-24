@@ -19,12 +19,7 @@
           "200": {
             "description": "cpe parameters",
             "schema": {
-              "type":"object",
-              "properties" : {
-                "cpeinfo": {
                 "$ref": "#/definitions/CpeInfo"
-                }
-              }
             }
           }
         }

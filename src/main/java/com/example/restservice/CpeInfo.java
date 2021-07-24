@@ -1,8 +1,6 @@
 
 package com.example.restservice;
 
-import com.google.gson.Gson;
-
 public class CpeInfo {
 
 	private final String msisdn;
@@ -12,11 +10,20 @@ public class CpeInfo {
 
 	public CpeInfo(String msisdn) {
 		this.msisdn = msisdn;
-		cpeversion = "1.2.3";
+		cpeversion = "1.2.2";
 		cpemodel = "Samsung Galaxy 20 Ultra Note";
 	}
 
-	public String getcpeInfo(){
-		return "cpeversion:"+ cpeversion + ", cpemodel:"+ cpemodel +", msisdn:"+msisdn;
+	public String getMsisdn() {
+		return msisdn;
 	}
+
+	public String getCpeModel() {
+		return cpemodel;
+	}
+
+	public String getCpeVersion() {
+		return cpeversion;
+	}
+
 }
