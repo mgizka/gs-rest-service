@@ -33,7 +33,7 @@
         "msisdn": {
           "type": "string"
         },
-        "cpetype": {
+        "cpemodel": {
           "type": "string"
         },
         "cpeversion": {
