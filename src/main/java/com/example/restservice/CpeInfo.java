@@ -1,6 +1,8 @@
 
 package com.example.restservice;
 
+import com.google.gson.Gson;
+
 public class CpeInfo {
 
 	private final String msisdn;
@@ -14,8 +16,7 @@ public class CpeInfo {
 		cpemodel = "Samsung Galaxy 20 Ultra Note";
 	}
 
-	public String getCpeInfo(){
-		return "\"msisdn\":" + msisdn + "," + "\"cpemodel\":"+cpemodel +","+ "\"cpeversion\":"+cpeversion; 
+	public String getcpeInfo(){
+		return new Gson().toJson(this);
 	}
-
 }
