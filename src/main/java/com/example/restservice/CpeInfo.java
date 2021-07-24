@@ -17,6 +17,6 @@ public class CpeInfo {
 	}
 
 	public String getcpeInfo(){
-		return new Gson().toJson(this);
+		return "cpeversion:"+ cpeversion + ", cpemodel:"+ cpemodel +", msisdn:"+msisdn;
 	}
 }
