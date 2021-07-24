@@ -7,8 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CpeInfoController {
 
-	@GetMapping("/cpeinfo")
-	public CpeInfo cpeinfo(@RequestParam(value = "msisdn") String msisdn) {
+	
+
+	@GetMapping("/cpeinfo/{msisdn}")
+	public CpeInfo cpeinfo(@PathVariable String msisdn) {
 		return new CpeInfo(msisdn);
 	}
 }
