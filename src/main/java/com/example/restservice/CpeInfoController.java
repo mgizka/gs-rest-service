@@ -9,10 +9,10 @@ import java.net.URISyntaxException;
 @RestController
 public class CpeInfoController {
 
-	@GetMapping("/cpeinfo/{msisdn}")
-	public CpeInfo cpeinfo(@PathVariable String msisdn) {
+	@GetMapping("/cpeinfo/{sn}")
+	public CpeInfo cpeinfo(@PathVariable String sn) {
 
-		String query = "SELECT * FROM \"CPE\" WHERE msisdn='"+msisdn+"'";
+		String query = "SELECT * FROM \"CPE\" WHERE cpesn='"+sn+"'";
 		CpeInfo cp = null;
 		
 		try (Connection con = DbUtil.getConnection()){
@@ -22,9 +22,11 @@ public class CpeInfoController {
 			
 			while(rs.next()){
 					cp = new CpeInfo(
-						rs.getString("msisdn"),
+						rs.getString("cpesn"),
 						rs.getString("cpemodel"),
-						rs.getString("cpeversion")
+						rs.getString("cpeversion"),
+						rs.getString("cpestatus"),
+						rs.getString("cpetype"),
 					);
 					break;
 			}
