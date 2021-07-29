@@ -34,7 +34,7 @@ public class CpeInfo {
 		return cpetype;
 	}
 	public String getCpeStatus() {
-		return cpeversion;
+		return cpestatus;
 	}
 
 }
