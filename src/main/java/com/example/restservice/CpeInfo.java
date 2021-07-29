@@ -10,14 +10,17 @@ public class CpeInfo {
 	private final String cpetype;
 
 
-	public CpeInfo(String sn, String model, String version, String cpeStatus, String cpeType) {
-		this.msisdn = sn;
+	public CpeInfo(String sn, String model, String version, String status, String type) {
+		this.sn = sn;
 		this.cpeversion = version;
 		this.cpemodel = model;
+		this.cpestatus = status;
+		this.cpetype = type;
+		
 	}
 
 	public String getSn() {
-		return msisdn;
+		return sn;
 	}
 
 	public String getCpeModel() {
@@ -28,7 +31,7 @@ public class CpeInfo {
 		return cpeversion;
 	}
 	public String getCpeType() {
-		return cpeType;
+		return cpetype;
 	}
 	public String getCpeStatus() {
 		return cpeversion;

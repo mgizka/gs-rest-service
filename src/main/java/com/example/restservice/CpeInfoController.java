@@ -26,7 +26,7 @@ public class CpeInfoController {
 						rs.getString("cpemodel"),
 						rs.getString("cpeversion"),
 						rs.getString("cpestatus"),
-						rs.getString("cpetype"),
+						rs.getString("cpetype")
 					);
 					break;
 			}
